@@ -64,7 +64,7 @@ const productSchema = new mongoose.Schema({
     ],
     createAt:{
         type:Date,
-        default:Dtae.now
+        default:Date.now
     }
 
 })
